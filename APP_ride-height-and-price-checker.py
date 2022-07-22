@@ -15,12 +15,11 @@ if height >= 120:
     bill = 12
     print(f"Adult tickets are ${bill}")
     
-  photo = input ("Do you want a $3 photo? Y / N")
+  photo = input ("Do you want a $3 photo? Y / N: \n")
   if photo == "Y":
     bill += 3
-    print(f"Your total is ${bill}")
-  else:
-    print(f"It will be ${bill}") 
+    
+  print(f"Your total is ${bill}") 
                 
 else:
   print("You still need to grow taller to ride")
